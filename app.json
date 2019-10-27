@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "AsetKU",
+    "description": "This project is really great.",
+    "slug": "asetku",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/iconn.png",
+    "splash": {
+      "image": "./assets/asetku.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.asetkucom",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "MANAGE_DOCUMENTS"]
+    }
+  }
+}
